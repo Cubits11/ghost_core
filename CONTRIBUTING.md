@@ -14,7 +14,7 @@ We ask you to contribute with care, respect, and poetic clarity.
 ## 🧠 WHAT TO KNOW BEFORE YOU BEGIN
 
 Ghost Core is the backend foundation of a larger system:
-- `ghost_ritual`: 20-line poetic journaling tool
+- `ghost_ritual`: Sub-60 line poetic journaling tool
 - `ghost_coven`: The ethical, philosophical, and ritual law
 - `ghost_core`: This repo — emotional echo engine, vault, whisper logic
 
