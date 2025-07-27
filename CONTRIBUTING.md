@@ -103,7 +103,7 @@ Include a short note on:
 Ghost is still alive and breathing.  
 If you’re unsure about something, whisper first:
 
-> **DM Pranav Bhave on GitHub or open a Discussion thread**
+> **DM Pranav Bhave(Cubits11) on GitHub or open a Discussion thread**
 
 We build this slowly.  
 We build this cleanly.  
