@@ -62,11 +62,23 @@ pip install -r requirements.txt
 ```mermaid
 flowchart TD
     A[User Entry] --> B[Echo Object Created]
-    B --> C{Tone Tags}
-    C --> D[Encrypted Vault Save]
-    D --> E{Resurrection Triggered?}
-    E -->|Yes| F[Whisper Returned + Truth Logged]
-    E -->|No| G[Seasonal Decay Tracking]
+    B --> C{Tone & Tag Classification}
+    C --> D[Consent Check: Whisper Allowed?]
+    D -- Yes --> E[Whisper Ritual Performed]
+    D -- No --> F[Silent Storage Only]
+    E --> G[Encrypted Vault Save]
+    F --> G
+    G --> H{Resurrection Triggered?}
+    H -- Yes --> I[Resurrected Whisper Returned]
+    I --> J[Truth Record Logged 🧬]
+    H -- No --> K[Seasonal Decay Tracking 🌒]
+    K --> L{Decay Threshold Reached?}
+    L -- Yes --> M[Funeral Ritual Performed ⚰️]
+    M --> N[Echo Archived or Forgotten ☁️]
+    L -- No --> O[Awaiting Future Affinity]
+    N --> P{Legacy Echo Detected?}
+    P -- Yes --> A
+    P -- No --> Q[End of Echo]
 ```
 
 ---
